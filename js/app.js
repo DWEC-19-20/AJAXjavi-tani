@@ -369,11 +369,6 @@ enlacesPag.addEventListener("click", (event) => {
 
 /* Primera carga de imágenes */
 
-function inicio() {
-    document.getElementById("buscador").style.display = "none";
-}
-window.onload = inicio;
-
 document.getElementById("boton-inicio").addEventListener("click", () => {
     document.getElementById("inicio").style.display = "none";
     document.getElementById("buscador").style.display = "block";
